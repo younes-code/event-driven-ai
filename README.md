@@ -13,4 +13,4 @@ Follow the installation guid to install Metavision SDK and all other dependencie
 
 Download the pre-trained model for classification from the link below:
 
-- [Pre-trained Model: model_classifier.ptjit](https://docs.prophesee.ai/stable/guides/pre-trained_models.html?highlight=mobilenetv2_chifoumi%20zip)
+- [Pre-trained Models:](https://docs.prophesee.ai/stable/guides/pre-trained_models.html?highlight=mobilenetv2_chifoumi%20zip)
