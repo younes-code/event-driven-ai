@@ -15,6 +15,8 @@ Download the pre-trained model for classification from the link below:
 
 - [Pre-trained Models](https://docs.prophesee.ai/stable/guides/pre-trained_models.html?highlight=mobilenetv2_chifoumi%20zip), for inference
 
+Place the downloaded model in the `models/` directory of the project.
+
 ## Running the Inference
 
 To run the inference pipeline, use the following command:
