@@ -14,3 +14,10 @@ Follow the installation guid to install Metavision SDK and all other dependencie
 Download the pre-trained model for classification from the link below:
 
 - [Pre-trained Models](https://docs.prophesee.ai/stable/guides/pre-trained_models.html?highlight=mobilenetv2_chifoumi%20zip), for inference
+
+## Running the Inference
+
+To run the inference pipeline, use the following command:
+
+```bash
+python3 classification_inference.py /path/to/model_directory -p "/path/to/event_data.raw" --delta-t 10000 --cpu --height-width 720 1280
