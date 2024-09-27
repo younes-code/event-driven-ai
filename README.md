@@ -6,7 +6,6 @@ This repository provides a comprehensive framework for gesture recognition and o
 
 
 ## Prerequisites
-/model_classifier.ptjit
 Follow the installation guid to install Metavision SDK and all other dependencies:
 - [Metavision SDK](https://docs.prophesee.ai/stable/installation/index.html), for event-based vision processing
 
