@@ -3,8 +3,5 @@ metavision_inference_env/*
 samples/recorded/*.raw
 samples/dataset/*.dat
 
-# Allow the directories themselves to be tracked
-!models/
-!metavision_inference_env/
-!samples/recorded/
-!samples/dataset/
+# Allow the placeholder files to be tracked
+!*/.gitkeep
