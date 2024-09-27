@@ -20,13 +20,12 @@ Place the downloaded model in the `models/` directory of the project.
 
 ## Running the Inference for Gesture Recognition
 
-To run the inference pipeline, use the following command:
+To run the inference pipeline, use the following command [Doc](https://docs.prophesee.ai/stable/samples/modules/ml/classification_inference.html#chapter-samples-ml-classification-inference):
 
 ```bash
 python3 classification_inference.py /path/to/model_directory -p "/path/to/event_data.raw" --delta-t 10000 --cpu --height-width 720 1280
 
 Input Parameters
-
 - torchscript_dir: Path to the directory containing the TorchScript model and its JSON description.
 - -p / --path: Specify the RAW, HDF5, or DAT filename for the event data. Leave this blank to use a camera.
 - -w /path/to/output: to generate a mp4 video
@@ -50,7 +49,7 @@ Input Parameters
 
 ## Running the Inference for Detection and Tracking
 
-To run the inference pipeline, use the following command:
+To run the inference pipeline, use the following command [Doc](https://docs.prophesee.ai/stable/samples/modules/ml/detection_and_tracking_inference_py.html#chapter-samples-ml-detection-and-tracking-inference-python):
 
 ```bash
 python3 detection_and_tracking_pipeline.py --object_detector_dir /path/to/model_directory --record_file "/path/to/event_data.raw/driving_sample.raw" --display --cpu --network_input_width 640 --network_input_height 480
