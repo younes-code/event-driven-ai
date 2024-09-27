@@ -1,4 +1,4 @@
-# Copyright (c) Prophesee S.A. - All Rights Reserved
+# Copyright (c) Prophesee S.A. - All Rights Reserved.
 #
 # Subject to Prophesee Metavision Licensing Terms and Conditions ("License T&C's").
 # You may not use this file except in compliance with these License T&C's.
