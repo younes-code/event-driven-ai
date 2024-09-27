@@ -1,3 +1,4 @@
 models/*
 metavision_inference_env/*
-samples/*
+samples/recorded/*.raw
+samples/dataset/*.dat
