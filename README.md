@@ -46,6 +46,7 @@ Input Parameters
 - 320 (1280 / 2^2)
 - 160 (1280 / 2^3)
 - 80 (1280 / 2^4)   
+```
 
 ## Running the Inference for Detection and Tracking
 
@@ -61,6 +62,7 @@ Input Parameters
 - --cpu: Use this flag to run the inference on the CPU instead of the GPU.
 - --network_input_width: Width of the input images. Options can be 640, 320, 160, or 80.
 - --network_input_height: Height of the input images. Options can be 480, 240, 120, or 60.
+```
 
 ## Notes
 - Ensure you have the necessary pre-trained models in the models/ directory.
