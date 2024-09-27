@@ -2,10 +2,11 @@
 
 ## Overview
 
-This repository contains an event-based deep learning inference pipeline for gesture recognition using event-based cameras. The model uses the Metavision SDK and TorchScript for inference. 
+This repository provides a comprehensive framework for gesture recognition and object detection using event-based cameras. Follow the guidelines to set up the environment and run the inference pipelines efficiently. The model uses the Metavision SDK
+
 
 ## Prerequisites
-
+/model_classifier.ptjit
 Follow the installation guid to install Metavision SDK and all other dependencies:
 - [Metavision SDK](https://docs.prophesee.ai/stable/installation/index.html), for event-based vision processing
 
@@ -17,7 +18,7 @@ Download the pre-trained model for classification from the link below:
 
 Place the downloaded model in the `models/` directory of the project.
 
-## Running the Inference
+## Running the Inference for Gesture Recognition
 
 To run the inference pipeline, use the following command:
 
@@ -45,3 +46,22 @@ Input Parameters
 - 320 (1280 / 2^2)
 - 160 (1280 / 2^3)
 - 80 (1280 / 2^4)   
+
+## Running the Inference for Detection and Tracking
+
+To run the inference pipeline, use the following command:
+
+```bash
+python3 detection_and_tracking_pipeline.py --object_detector_dir /path/to/model_directory --record_file "/path/to/event_data.raw/driving_sample.raw" --display --cpu --network_input_width 640 --network_input_height 480
+
+Input Parameters
+- --object_detector_dir: Path to the directory containing the object detection model.
+- --record_file: Specify the RAW file containing the ego dash cam event data.
+- --display: Flag to display the output in real-time.
+- --cpu: Use this flag to run the inference on the CPU instead of the GPU.
+- --network_input_width: Width of the input images. Options can be 640, 320, 160, or 80.
+- --network_input_height: Height of the input images. Options can be 480, 240, 120, or 60.
+
+## Notes
+- Ensure you have the necessary pre-trained models in the models/ directory.
+- Adjust the input dimensions based on your requirements for performance versus accuracy.

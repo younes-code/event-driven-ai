@@ -1,7 +1,8 @@
-models/*
+Rock-Paper-Scissor/models/*
 metavision_inference_env/*
-samples/recorded/*.raw
-samples/dataset/*.dat
+Rock-Paper-Scissor/samples/recorded/*.raw
+Rock-Paper-Scissor/samples/dataset/*.dat
+detection_and_tracking_pipeline/models/*
 
 # Allow the placeholder files to be tracked
 !*/.gitkeep
