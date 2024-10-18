@@ -54,7 +54,8 @@ But if there is bandwidth constraint to run it live, you can try to increase the
 To run the inference pipeline, use the following command [Doc](https://docs.prophesee.ai/stable/samples/modules/ml/detection_and_tracking_inference_py.html#chapter-samples-ml-detection-and-tracking-inference-python):
 
 ```bash
-python3 detection_and_tracking_pipeline.py --object_detector_dir /path/to/model_directory --record_file "/path/to/event_data.raw/driving_sample.raw" --display --cpu --network_input_width 640 --network_input_height 480
+python3 detection_and_tracking_pipeline.py --object_detector_dir /path/to/model_directory --record_file "/path/to/event_data.raw/driving_sample.raw" --display cpu --network_input_width 640 --network_input_height 480
+
 
 Input Parameters
 - --object_detector_dir: Path to the directory containing the object detection model.
